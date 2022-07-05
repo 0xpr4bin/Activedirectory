@@ -6,11 +6,10 @@
  	- clone template mode for domain controller and management client 
 
 # Installing Domain Controller 
-	> Use `SConfig` to:
-		-change hostname
-		-change IP address to static 
-		-change DNS server to our own IP address 
+> Use `SConfig` to:
+-change hostname
+-change IP address to static 
+-change DNS server to our own IP address 
 
-	> Install Active Directory windows features 
-		
-		`Install-WIndowsFeature AD-Domain-Services -IncludemanagementTools`
+> Install Active Directory windows features 
+  `Install-WIndowsFeature AD-Domain-Services -IncludemanagementTools`
