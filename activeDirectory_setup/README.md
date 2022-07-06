@@ -12,4 +12,10 @@
 - change DNS server to our own IP address 
 
 > Install Active Directory windows features 
+  `Import-Module -Name ActiveDirectory`
   `Install-WIndowsFeature AD-Domain-Services -IncludemanagementTools`
+  `Install-ADDSForest -DomainName domain.local -InstallDNS `
+  
+
+  
+  
