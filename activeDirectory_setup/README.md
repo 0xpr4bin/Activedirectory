@@ -16,6 +16,9 @@
  - `Install-WIndowsFeature AD-Domain-Services -IncludemanagementTools`
  - `Install-ADDSForest -DomainName domain.local -InstallDNS `
   
-
+> Change Dns setting 
+ - `Get-NetIPAddress`
+ - `Get-DnsClientServerAddress`
+ - `Set-DnsClientServerAddress -InerfaceIndex [no] -ServerAddress [ip of dns]`
   
   
